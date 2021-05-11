@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+   
+}
+html{
+    font-size: 14px;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg,#9c27b0,#8ecdff);
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    background:transparent ;
+    position:sticky;
+    z-index:1;
+}
+.logo {
+    flex-basis:30%;
+   position:relative;
+   left:5em;
+   
+}
+.nav-list {
+    flex-basis:60%;
+    
+    text-align: right;
+    padding:1.1em 0;
+   
+
+}
+.nav-list ul li{
+    display:inline;
+    list-style:none;
+    font-size:2em;
+    margin:0 0 0 2em;
+    
+
+}
+.nav-list ul li a{
+    color:#fff;
+    text-decoration: none;
+    transition: .7s;
+}
+.nav-list ul li a:hover{
+    color:#8ecdff;
+}
+
+.information{
+    width:60%;
+    height:120%;
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    
+}
+#circle{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    border-radius:50%;
+    background:#ddd;
+    
+    
+    
+}
+.battery{
+    position:relative;
+    top:15%;
+    left: 50%;
+    
+}
+.display{
+    position:relative;
+    top:60%;
+    left:50%;
+    
+}
+.camera{
+    position:relative;
+    top:37%;
+    left:75%;
+}
+.processor{
+    position:relative;
+    top:23%;
+    left:20%;
+}
+.processor img{
+    width:5%;
+    
+}
+
+.camera img{
+    width:5%;
+}
+.display img{
+    width:5%;
+
+
+}
+.battery img{
+    width:5%;
+
+
+}
+.mobile{
+    width: 15%;
+    position:relative;
+    top: 5%;
+    left:45%;
+}
